@@ -1,0 +1,37 @@
+<!DOCTYPE>
+
+<html>
+	<head>
+		<title>CS3342 Parctice2</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div id="description"></div>
+		<hr>
+		<div>
+			<label>Question</label>
+			<textarea rows="1" cols="2" id="qNO" style="vertical-align:top; resize: none;"></textarea>
+			<button id="go">Go(g)</button>
+			<br>
+			<textarea disabled rows="5" cols="100" id="question" style="resize: none;"></textarea>
+			<br>
+			<button id="getQPrev">Prev Question(←)</button>
+			<button id="getQRandom">Random Quetsion(↓)</button>
+			<button id="getQNext">Next Question(→)</button>
+		</div>
+		<div>
+			<br>
+			<textarea disabled rows="8" cols="100" id="answer" style="resize: none;"></textarea>
+			<br>
+			<button id="getA">Get Answer(Enter)</button>
+			<button id="mark">Mark(m)</button>
+		</div>
+		<div>
+			<p id="markedList"></p>
+		</div>
+	</body>
+	<script src="./jquery-3.1.1.min.js"></script>
+	<script src="./examdatabase.js"></script>
+	<script src="./main.js"></script>
+</html>
